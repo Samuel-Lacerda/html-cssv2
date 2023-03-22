@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+
+
+/* Cabeçalho*/
+header{
+    background-color: black;
+    color: white;
+    height: 200px;
+    padding: 20px;
+    margin: -10px;
+}
+header > h1{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 5em;
+    margin-bottom: -5px;
+}
+header > p{
+    text-align: center;
+}
+header > p > a{
+    text-decoration: none;
+    color: white;
+}
+header > p a:hover{
+    text-decoration: underline;
+}
+
+/* Main */
+main{
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*Rodapé */
+footer{
+    background-color: black;
+    color: white;
+    padding: 1px;
+    text-align: center;
+    height: 40px;
+    width: auto;
+}
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
+footer > p > a:hover{
+    text-decoration: underline;
+}
