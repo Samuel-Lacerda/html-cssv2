@@ -3,30 +3,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Body */
+body{
+    min-height: 100vh;
 
+}
 /* Cabeçalho*/
 header{
     background-color: black;
     color: white;
     height: 19vw;
-    padding: 50px;
-    margin: -10px;
 }
 header > h1{
     text-align: center;
-    margin-top: 0.5em;
-    font-size: 10vw;
-    margin-bottom: -5px;
     font-family: Passion One, sans-serif;
     font-variant: small-caps;
+    padding-top: 50px;
+    font-size: 10vw;
 }
 header > p{
     text-align: center;
+    padding-bottom: 50px;
     font-size: 2vw;
 }
 header > p > a{
     text-decoration: none;
     color: white;
+    font-weight: bold;
 }
 header > p a:hover{
     text-decoration: underline;
@@ -34,13 +41,11 @@ header > p a:hover{
 
 /* Main */
 section{
-    padding-left: 10px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 25px;
 }
-main > section > p{
-    padding: 50px 0px 0px 10px;
-}
-
-
 #imagem1{
     margin-top: 80px;
     background-image:url(../imagens/background001.jpg);
@@ -63,15 +68,13 @@ main > section > p{
     box-shadow: inset 0px 0px 10px;
 }
 #firula{
-    padding-left: 2vh;
-    display: flex;
-    width: 45vw;
-    -ms-flex-align: start,center;
+    padding: 5px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.596);
     color: white;
     font-size: 4vw;
-    font-family:Passion One, sans-serif;
-    font-variant: small-caps;
+    font-family:Sriracha, sans-serif;
+    line-height: 2em;
 
 }
 #normal{
@@ -86,10 +89,8 @@ main > section > p{
 footer{
     background-color: black;
     color: white;
-    margin: -10px;
     text-align: center;
-    height: 30px;
-    width: auto;
+    padding: 10px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Times, serif;
 }
 footer > p > a{
