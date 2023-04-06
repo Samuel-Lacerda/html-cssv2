@@ -8,12 +8,22 @@ body{
     height: 98vh;
     width: 99vw;
 }
-img{
+img#celular{
     display: block;
     margin: auto;
     padding-top: 10vh;
 }
-iframe{
+.redes-sociais{
     display: inline;
-    margin: auto;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.767);
+    width: 8vw;
+    border-radius: 50%;
+    justify-content: space-between;
+    
+}
+.redes-sociais:hover{
+    scale: 1.1;
 }
