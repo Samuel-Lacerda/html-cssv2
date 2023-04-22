@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../imagens/gradient-dark-blue-futuristic-digital-background-min.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+header{
+    background-color: #064B8F;
+}
+header > h1{
+    padding: 10px;
+    text-align: center;
+}
+menu{display: block;}
+menu > ul{list-style-type: none;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color:#183daa;
+}
+a:hover{
+    background-color:#015C79;
+}
+
